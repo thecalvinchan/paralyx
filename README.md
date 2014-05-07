@@ -10,12 +10,12 @@ JQUERY YAH
 
 Paralyx is backed by the notion of frames. Parallax animations are organized into various frames, and the animations themselves are not triggered until a particular frame is reached.
 
-    <div class="parallax-frame" parallax-start="0" parallax-end"150">
+    <div class="paralyx-frame" paralyx-start="0" paralyx-end"150">
 
-Frames are created by including the class `parallax-frame`. Frames are triggered based on two additional attributes, `parallax-start` and `parallax-end`. These two attributes specify the start and end of a frame animation based on the scroll offset from the top of the document.
+Frames are created by including the class `paralyx-frame`. Frames are triggered based on two additional attributes, `paralyx-start` and `paralyx-end`. These two attributes specify the start and end of a frame animation based on the scroll offset from the top of the document.
 
-Within each frame, we have the actual parallax objects. A parallax object is created by including the class `parallax-obj`.
+Within each frame, we have the actual parallax objects. A parallax object is created by including the class `paralyx-obj`.
 
-    <div class="parallax-obj move-down" parallax-level="1">
+    <div class="paralyx-obj move-down" paralyx-level="1">
 
-Parallax objects either move up, down, left, or right. The parallax animation is specified by the classes `move-up`, `move-down`, `move-left`, and `move-right`, respectively. An additional Number paramter, `parallax-level`, is used to specify the magnitude of the parallax animation. 
+Parallax objects either move up, down, left, or right. The parallax animation is specified by the classes `move-up`, `move-down`, `move-left`, and `move-right`, respectively. An additional Number paramter, `paralyx-level`, is used to specify the magnitude of the parallax animation. 
